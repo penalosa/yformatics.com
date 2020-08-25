@@ -1,0 +1,9 @@
+- type: unit
+  slug: learning
+  name: Learning
+  visible: true
+
+- type: unit
+  slug: algorithms
+  name: Algorithms
+  visible: true

@@ -1,0 +1,34 @@
+- type: subject
+  slug: linear-algebra
+  name: ILA
+  colour: "#03A9F4"
+  image: Calculus.svg
+  visible: true
+
+- type: subject
+  slug: fundamentals
+  name: FAC
+  colour: "#f44336"
+  image: Calculus.svg
+  visible: false
+
+- type: subject
+  slug: calculus
+  name: Calculus (final)
+  colour: "#f44336"
+  image: Calculus.svg
+  visible: true
+
+- type: subject
+  slug: calculus-1
+  name: Calculus (1)
+  colour: "#f44336"
+  image: Calculus.svg
+  visible: true
+
+- type: subject
+  slug: calculus-2-5
+  name: Calculus (2)
+  colour: "#f44336"
+  image: Calculus.svg
+  visible: true

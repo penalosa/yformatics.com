@@ -1,0 +1,47 @@
+- type: topic
+  slug: law-and-government
+  name: Law & Government
+  image: law.jpg
+  visible: true
+
+- type: topic
+  slug: the-computing-profession
+  name: The Computing Profession
+  image: profession.jpg
+  visible: true
+
+- type: topic
+  slug: organisations
+  name: Organisations
+  image: organisations.jpg
+  visible: true
+
+- type: topic
+  slug: structure-and-manangement
+  name: Structure & Manangement
+  image: management.jpg
+  visible: true
+
+- type: topic
+  slug: financing-a-start-up
+  name: Financing a Start-up
+  image: start-up.jpg
+  visible: true
+
+- type: topic
+  slug: financial-accounting
+  name: Financial Accounting
+  image: financial-accounting.jpg
+  visible: true
+
+- type: topic
+  slug: manangement-accounting
+  name: Manangement Accounting
+  image: manangement-accounting.jpg
+  visible: true
+
+- type: topic
+  slug: investment-appraisal
+  name: Investment Appraisal
+  image: investment.jpg
+  visible: true

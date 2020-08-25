@@ -1,0 +1,41 @@
+- type: topic
+  slug: human-resources
+  name: Human Resources
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: anti-discrimination-legislation
+  name: Anti-discrimination Legislation
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: intellectual-property
+  name: Intellectual Property
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: software-contracts-and-licences
+  name: Software Contracts & Licences
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: data-protection-and-privacy
+  name: Data Protection & Privacy
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: internet-issues
+  name: Internet Issues
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: computer-misuse
+  name: Computer Misuse
+  image: blank.jpg
+  visible: true

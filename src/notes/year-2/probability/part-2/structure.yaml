@@ -1,0 +1,5 @@
+- type: topic
+  slug: topic-1
+  name: Topic 1
+  image: blank.jpg
+  visible: true

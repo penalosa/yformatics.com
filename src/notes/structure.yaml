@@ -1,0 +1,14 @@
+- type: level
+  slug: year-1
+  name: Year 1
+  visible: true
+
+- type: level
+  slug: year-2
+  name: Year 2
+  visible: true
+
+- type: level
+  slug: year-3
+  name: Year 3
+  visible: true

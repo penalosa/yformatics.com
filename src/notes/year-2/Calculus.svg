@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.409" height="164.409" viewBox="0 0 164.409 164.409">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_155" data-name="Rectangle 155" width="164.409" height="164.409" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_58" data-name="Mask Group 58" clip-path="url(#clip-path)">
+    <g id="maths-BJMKsV1nm" transform="translate(27.32 9.026)">
+      <g id="Group_44" data-name="Group 44" transform="translate(0 0)">
+        <path id="Path_126" data-name="Path 126" d="M.163,0V146.358H109.931V0ZM26.773,129.726H13.468V116.421H26.773v13.305Zm0-23.284H13.468V93.137H26.773v13.305Zm0-23.284H13.468V69.853H26.773V83.158Zm0-23.284H13.468V46.568H26.773V59.874Zm23.284,69.853H36.752V116.421H50.057v13.305Zm0-23.284H36.752V93.137H50.057v13.305Zm0-23.284H36.752V69.853H50.057V83.158Zm0-23.284H36.752V46.568H50.057V59.874Zm23.284,69.853H60.036V116.421H73.342v13.305Zm0-23.284H60.036V93.137H73.342v13.305Zm0-23.284H60.036V69.853H73.342V83.158Zm0-23.284H60.036V46.568H73.342V59.874Zm23.284,56.548v13.305H83.321V93.137H96.626v23.284Zm0-33.263H83.321V69.853H96.626V83.158Zm0-23.284H83.321V46.568H96.626V59.874Zm0-26.611H13.468V13.305H96.626V33.263Z" transform="translate(-0.163)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

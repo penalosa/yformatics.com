@@ -1,0 +1,47 @@
+- type: topic
+  slug: measuring-runtime
+  name: Measuring Runtime
+  image: measuring-runtime.jpg
+  visible: true
+
+- type: topic
+  slug: sequential-data-structures
+  name: Sequential Data Structures
+  image: sequential-data-structures.jpg
+  visible: true
+
+- type: topic
+  slug: hashing
+  name: Hashing
+  image: hashing.jpg
+  visible: true
+
+- type: topic
+  slug: sorting-algorithms
+  name: Sorting Algorithms
+  image: sorting-algorithms.jpg
+  visible: true
+
+- type: topic
+  slug: trees
+  name: Trees
+  image: trees.jpg
+  visible: true
+
+- type: topic
+  slug: heaps-and-priority-queues
+  name: Heaps & Priority Queues
+  image: heaps-and-priority-queues.jpg
+  visible: true
+
+- type: topic
+  slug: graphs
+  name: Graphs
+  image: graphs.jpg
+  visible: true
+
+- type: topic
+  slug: indexing-and-queries
+  name: Indexing & Queries
+  image: google.jpg
+  visible: true

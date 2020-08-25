@@ -1,0 +1,41 @@
+- type: topic
+  slug: functions
+  name: Functions
+  image: functions.jpg
+  visible: true
+
+- type: topic
+  slug: limits
+  name: Limits
+  image: limits.jpg
+  visible: true
+
+- type: topic
+  slug: derivatives
+  name: Derivatives
+  image: differentiation.jpg
+  visible: true
+
+- type: topic
+  slug: inverse-functions
+  name: Inverse Functions
+  image: inverse-functions.jpg
+  visible: true
+
+- type: topic
+  slug: applications-of-differentiation
+  name: Applications of Differentiation
+  image: applications-of-differentiation.jpg
+  visible: true
+
+- type: topic
+  slug: graphs
+  name: Graphs
+  image: graph-sketching.jpg
+  visible: true
+
+- type: topic
+  slug: optimization-and-antiderivatives
+  name: Optimization & Antiderivatives
+  image: optimization-and-antiderivatives.jpg
+  visible: true

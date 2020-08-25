@@ -1,0 +1,29 @@
+- type: topic
+  slug: intermediate-code
+  name: Intermediate Code
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: basic-blocks-and-traces
+  name: Basic Blocks & Traces
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: instruction-selection
+  name: Instruction Selection
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: liveness-analysis
+  name: Liveness Analysis
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: register-allocation
+  name: Register Allocation
+  image: blank.jpg
+  visible: true

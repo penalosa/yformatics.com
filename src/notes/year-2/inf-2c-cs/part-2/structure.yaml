@@ -1,0 +1,23 @@
+- type: topic
+  slug: memory-and-caches
+  name: Memory & Caches
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: virtual-memory
+  name: Virtual Memory
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: exceptions
+  name: Exceptions
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: io-and-peripherals
+  name: IO & peripherals
+  image: blank.jpg
+  visible: true

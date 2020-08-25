@@ -1,0 +1,35 @@
+- type: topic
+  slug: integration
+  name: Integration
+  image: integration.jpg
+  visible: true
+
+- type: topic
+  slug: fundamental-theorem-of-calculus
+  name: Fundamental Theorem of Calculus
+  image: fundamental-theorem-of-calculus.jpg
+  visible: true
+
+- type: topic
+  slug: trigonometric-integrals
+  name: Trigonometric Integrals
+  image: trigonometric-integrals.jpg
+  visible: true
+
+- type: topic
+  slug: partial-fractions
+  name: Partial Fractions
+  image: partial-fractions.jpg
+  visible: true
+
+- type: topic
+  slug: convergence-and-divergence
+  name: Convergence & Divergence
+  image: convergence-and-divergence.jpg
+  visible: true
+
+- type: topic
+  slug: applications
+  name: Applications
+  image: applications.jpg
+  visible: true

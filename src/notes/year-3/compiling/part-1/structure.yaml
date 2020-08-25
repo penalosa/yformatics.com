@@ -1,0 +1,35 @@
+- type: topic
+  slug: structure-of-a-compiler
+  name: Structure of a Compiler
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: lexical-analysis
+  name: Lexical Analysis
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: parsing
+  name: Parsing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: abstract-syntax
+  name: Abstract Syntax
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: semantic-analysis
+  name: Semantic Analysis
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: stack-frames
+  name: Stack Frames
+  image: blank.jpg
+  visible: true

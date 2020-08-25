@@ -1,0 +1,23 @@
+- type: topic
+  slug: usable-security
+  name: Usable Security
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: authentication-and-anonymity
+  name: Authentication & Anonymity
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: memory-safety
+  name: Memory Safety
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: web-security
+  name: Web Security
+  image: blank.jpg
+  visible: true

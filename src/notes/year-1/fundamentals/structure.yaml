@@ -1,0 +1,9 @@
+- type: unit
+  slug: algebra
+  name: Algebra
+  visible: false
+
+- type: unit
+  slug: calculus
+  name: Calculus
+  visible: true

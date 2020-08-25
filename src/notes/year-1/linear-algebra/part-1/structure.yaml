@@ -1,0 +1,23 @@
+- type: topic
+  slug: vectors-and-matrices
+  name: Vectors & Matrices
+  image: vectors-and-matrices.jpg
+  visible: true
+
+- type: topic
+  slug: linear-equations
+  name: Linear Equations
+  image: linear-equations.jpg
+  visible: true
+
+- type: topic
+  slug: eigenvalues-and-eigenvectors
+  name: Eigenvalues & Eigenvectors
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: orthoganality
+  name: Orthoganality
+  image: blank.jpg
+  visible: true

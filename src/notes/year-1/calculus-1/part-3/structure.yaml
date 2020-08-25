@@ -1,0 +1,23 @@
+- type: topic
+  slug: differential-equations
+  name: Differential Equations
+  image: differential-equations.jpg
+  visible: true
+
+- type: topic
+  slug: direction-fields
+  name: Direction Fields
+  image: direction-fields.jpg
+  visible: true
+
+- type: topic
+  slug: sequences
+  name: Sequences
+  image: sequences.jpg
+  visible: true
+
+- type: topic
+  slug: series
+  name: Series
+  image: series.jpg
+  visible: true

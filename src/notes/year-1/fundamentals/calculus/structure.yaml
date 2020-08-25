@@ -1,0 +1,41 @@
+- type: topic
+  slug: principles-of-differentiation
+  name: Principles of Differentiation
+  image: differentiation.jpg
+  visible: true
+
+- type: topic
+  slug: techniques-of-differentiation
+  name: Techniques of Differentiation
+  image: differentiation.jpg
+  visible: true
+
+- type: topic
+  slug: principles-of-integration
+  name: Principles of Integration
+  image: integration.jpg
+  visible: true
+
+- type: topic
+  slug: techniques-of-integration
+  name: Techniques of Integration
+  image: integration.jpg
+  visible: true
+
+- type: topic
+  slug: functions-and-graphs
+  name: Functions & Graphs
+  image: graph-sketching.jpg
+  visible: true
+
+- type: topic
+  slug: rational-functions
+  name: Rational Functions
+  image: partial-fractions.jpg
+  visible: true
+
+- type: topic
+  slug: applications-of-calculus
+  name: Applications of Calculus
+  image: applications.jpg
+  visible: true

@@ -1,0 +1,47 @@
+- type: topic
+  slug: predicates-and-quantifiers
+  name: Predicates & Quantifiers
+  image: predicates-and-quantifiers.jpg
+  visible: true
+
+- type: topic
+  slug: set-theory
+  name: Set Theory
+  image: sets-and-functions.jpg
+  visible: false
+
+- type: topic
+  slug: sets-and-functions
+  name: Sets & Functions
+  image: sets-and-functions.jpg
+  visible: true
+
+- type: topic
+  slug: relations
+  name: Relations
+  image: relations.jpg
+  visible: true
+
+- type: topic
+  slug: cardinality
+  name: Cardinality
+  image: cardinality.jpg
+  visible: true
+
+- type: topic
+  slug: induction
+  name: Induction
+  image: induction.jpg
+  visible: true
+
+- type: topic
+  slug: arithmetic-modulo
+  name: Arithmetic Modulo
+  image: arithmetic-modulo.jpg
+  visible: true
+
+- type: topic
+  slug: multiplicative-inverses
+  name: Multiplicative Inverses
+  image: multiplicative-inverses.jpg
+  visible: true

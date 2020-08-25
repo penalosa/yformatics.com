@@ -1,0 +1,35 @@
+- type: topic
+  slug: functions
+  name: Functions
+  image: functions.jpg
+  visible: true
+
+- type: topic
+  slug: limits
+  name: Limits
+  image: limits.jpg
+  visible: true
+
+- type: topic
+  slug: differentiation
+  name: Differentiation
+  image: differentiation.jpg
+  visible: true
+
+- type: topic
+  slug: points-lines-and-tangents
+  name: Points, Lines & Tangents
+  image: points-lines-and-tangents.jpg
+  visible: true
+
+- type: topic
+  slug: graph-sketching
+  name: Graph Sketching
+  image: graph-sketching.jpg
+  visible: true
+
+- type: topic
+  slug: optimisation
+  name: Optimisation
+  image: optimisation.jpg
+  visible: true

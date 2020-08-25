@@ -1,0 +1,48 @@
+- type: subject
+  slug: profession
+  name: Professional Issues
+  colour: "#2196F3"
+  image: bulb.svg
+  visible: true
+
+- type: subject
+  slug: large-practical
+  name: ILP
+  colour: "#F44336"
+  image: construction.svg
+  visible: true
+
+- type: subject
+  slug: databases
+  name: Databases
+  colour: "#66BB6A"
+  image: storage.svg
+  visible: true
+
+- type: subject
+  slug: hell
+  name: SDP
+  colour: "#7E57C2"
+  image: psychology.svg
+  visible: true
+
+- type: subject
+  slug: security
+  name: Computer Security
+  colour: "#FF9800"
+  image: security.svg
+  visible: true
+
+- type: subject
+  slug: operating-systems
+  name: Operating Systems
+  colour: "#00BCD4"
+  image: memory.svg
+  visible: true
+
+- type: subject
+  slug: compiling
+  name: Compilers
+  colour: "#E91E63"
+  image: developer.svg
+  visible: true

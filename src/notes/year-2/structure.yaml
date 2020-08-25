@@ -1,0 +1,69 @@
+- type: subject
+  slug: discrete
+  name: DMMR
+  colour: "#03A9F4"
+  image: Calculus.svg
+  visible: true
+
+- type: subject
+  slug: discrete-old
+  name: DMMR Old
+  colour: "#03A9F4"
+  image: Calculus.svg
+  visible: false
+
+- type: subject
+  slug: inf-2c-cs
+  name: Computer Systems
+  colour: "#f44336"
+  image: Inf_2D.svg
+  visible: true
+
+- type: subject
+  slug: probability
+  name: Probability (final)
+  colour: "#66bb6a"
+  image: Probability.svg
+  visible: true
+
+- type: subject
+  slug: probability-2
+  name: Probability (1)
+  colour: "#66bb6a"
+  image: Probability.svg
+  visible: true
+
+- type: subject
+  slug: probability-2-5
+  name: Probability (2)
+  colour: "#66bb6a"
+  image: Probability.svg
+  visible: true
+
+- type: subject
+  slug: inf-2b
+  name: Inf 2B
+  colour: "#7E57C2"
+  image: Inf_2B.svg
+  visible: true
+
+- type: subject
+  slug: inf-2d
+  name: Inf 2D
+  colour: "#66BB6A"
+  image: Inf_2D.svg
+  visible: false
+
+- type: subject
+  slug: fide
+  name: FIDE
+  colour: "#FF9800"
+  image: FIDE.svg
+  visible: true
+
+- type: subject
+  slug: bais
+  name: BAIS
+  colour: "#FF9800"
+  image: FIDE.svg
+  visible: false

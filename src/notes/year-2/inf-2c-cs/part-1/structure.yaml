@@ -1,0 +1,35 @@
+- type: topic
+  slug: data-representation
+  name: Data Representation
+  image: data-representation.jpg
+  visible: true
+
+- type: topic
+  slug: mips-isa
+  name: MIPS ISA
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: intro-to-c
+  name: Intro to C
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: logic-design
+  name: Logic Design
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: processor-design-single-cycle
+  name: Processor Design Single Cycle
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: processor-design-multi-cycle
+  name: Processor Design Multi-Cycle
+  image: blank.jpg
+  visible: true

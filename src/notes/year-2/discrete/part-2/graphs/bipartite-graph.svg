@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="260" viewBox="0 0 1520 260">
+  <g id="Group_106" data-name="Group 106" transform="translate(-200 -410)">
+    <rect id="Rectangle_327" data-name="Rectangle 327" width="1520" height="260" transform="translate(200 410)" fill="#fafafa"/>
+    <g id="Group_105" data-name="Group 105">
+      <line id="Line_85" data-name="Line 85" x2="412" transform="translate(754.5 541.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_32" data-name="Line 32" x2="181.603" transform="translate(869.5 632.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_34" data-name="Line 34" x2="181.603" transform="translate(869.5 449.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_39" data-name="Line 39" x2="181.603" y2="183" transform="translate(869.5 449.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_40" data-name="Line 40" y1="183" x2="181.603" transform="translate(869.5 449.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_81" data-name="Line 81" x2="114.906" y2="91" transform="translate(754.5 541.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_82" data-name="Line 82" y1="92" x2="115" transform="translate(754.5 449.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_83" data-name="Line 83" y1="91" x2="115.397" transform="translate(1051.103 541.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <line id="Line_84" data-name="Line 84" x2="115" y2="92" transform="translate(1051.5 449.5)" fill="none" stroke="#151515" stroke-width="4"/>
+      <circle id="Ellipse_103" data-name="Ellipse 103" cx="10" cy="10" r="10" transform="translate(859 439)" fill="#338cf2"/>
+      <circle id="Ellipse_104" data-name="Ellipse 104" cx="10" cy="10" r="10" transform="translate(1041 439)" fill="#f44336"/>
+      <circle id="Ellipse_105" data-name="Ellipse 105" cx="10" cy="10" r="10" transform="translate(1041 622)" fill="#f44336"/>
+      <circle id="Ellipse_106" data-name="Ellipse 106" cx="10" cy="10" r="10" transform="translate(859 622)" fill="#2e8ff2"/>
+      <circle id="Ellipse_130" data-name="Ellipse 130" cx="10" cy="10" r="10" transform="translate(744 531)" fill="#f44336"/>
+      <circle id="Ellipse_131" data-name="Ellipse 131" cx="10" cy="10" r="10" transform="translate(1156 531)" fill="#2e90f3"/>
+    </g>
+  </g>
+</svg>

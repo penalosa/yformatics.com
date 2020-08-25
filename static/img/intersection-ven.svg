@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1520" height="500" viewBox="0 0 1520 500">
+  <g id="Group_5" data-name="Group 5" transform="translate(-200 -290)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1520" height="500" transform="translate(200 290)" fill="#fafafa"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(0 40)">
+      <path id="Intersection_1" data-name="Intersection 1" d="M254,210A209.668,209.668,0,0,1,337,42.74a210.029,210.029,0,0,1,0,334.519A209.669,209.669,0,0,1,254,210Z" transform="translate(623 290)" fill="#2196f3"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(190)">
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(433 290)" fill="none" stroke="#151515" stroke-width="18">
+          <circle cx="210" cy="210" r="210" stroke="none"/>
+          <circle cx="210" cy="210" r="201" fill="none"/>
+        </g>
+        <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(687 290)" fill="none" stroke="#151515" stroke-width="18">
+          <circle cx="210" cy="210" r="210" stroke="none"/>
+          <circle cx="210" cy="210" r="201" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

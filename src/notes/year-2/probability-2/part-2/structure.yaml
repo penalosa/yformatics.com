@@ -1,0 +1,35 @@
+- type: topic
+  slug: conditional-distributions
+  name: Conditional Distributions
+  image: conditional-distributions.jpg
+  visible: true
+
+- type: topic
+  slug: expectation
+  name: Expectation
+  image: expectation.jpg
+  visible: false
+
+- type: topic
+  slug: inequalities-and-limit-theorems
+  name: Inequalities & Limit Theorems
+  image: inequalities-and-limit-theorems.jpg
+  visible: true
+
+- type: topic
+  slug: discrete-markov-chains
+  name: Discrete Markov Chains
+  image: discrete-markov-chains.jpg
+  visible: true
+
+- type: topic
+  slug: continuous-markov-chains
+  name: Continuous Markov Chains
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: entropy
+  name: Entropy
+  image: blank.jpg
+  visible: true
