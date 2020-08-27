@@ -83,6 +83,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>{config.structure.name} | Yformatics</title>
+</svelte:head>
+
 <main>
   <article
     class="prose mx-auto prose-md md:prose-lg font-sans mb-20 mt-20 px-3"

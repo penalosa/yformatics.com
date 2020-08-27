@@ -26,7 +26,7 @@
 </style>
 
 <svelte:head>
-  <title>Me</title>
+  <title>{config.level.name} | YFormatics</title>
 </svelte:head>
 {#if $page.params.level && $page.params.subject && $page.params.unit && !$page.params.topic}
   <main class="">
