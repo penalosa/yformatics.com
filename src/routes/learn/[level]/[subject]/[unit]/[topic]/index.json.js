@@ -28,10 +28,16 @@ export async function get(req, res, next) {
       "utf-8"
     )
   );
+  const note = yaml.safeLoad(
+    await promises.readFile(
+      `./src/notes/${level}/${subject}/${unit}/${topic}/structure.yaml`,
+      "utf-8"
+    )
+  );
   res.end(
     JSON.stringify({
       content: mark.render(`[[toc]]\n${markdown}`),
-      structure: structure.find((s) => s.slug === topic)
+      structure: { ...structure.find((s) => s.slug === topic), note: note[0] }
     })
   );
 }

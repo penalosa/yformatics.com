@@ -43,7 +43,11 @@
 </script>
 
 <style>
+  article :global(h1) {
+    font-weight: 400;
+  }
   article :global(h2) {
+    font-weight: 400;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
   }
@@ -91,7 +95,9 @@
   <article
     class="prose mx-auto prose-md md:prose-lg font-sans mb-20 mt-20 px-3"
     bind:this={article}>
-    <h1 class="text-center font-display">{config.structure.name}</h1>
+    <h1 class="text-center font-display font-normal">
+      {config.structure.name}
+    </h1>
     {@html config.content}
   </article>
 </main>
