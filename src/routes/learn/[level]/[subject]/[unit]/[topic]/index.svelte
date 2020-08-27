@@ -14,31 +14,32 @@
 
 <script>
   let article;
-  // import { onMount } from "svelte";
+  import { onMount } from "svelte";
   export let config;
-  // const onMountHandler = () => {
-  //   const handleClick = (e) => {
-  //     if (e.target.className === "toc-link-a") {
-  //       e.preventDefault();
-  //       document
-  //         .getElementById(e.target.attributes.href.nodeValue.slice(1))
-  //         .scrollIntoView({ behavior: "smooth" });
-  //     }
-  //     if (e.target.className === "toc-link") {
-  //       e.preventDefault();
-  //       document
-  //         .getElementById(
-  //           e.target.firstChild.attributes.href.nodeValue.slice(1)
-  //         )
-  //         .scrollIntoView({ behavior: "smooth" });
-  //     }
-  //   };
-  //   article.addEventListener("click", handleClick);
-  //   return () => article.removeEventListener("click", handleClick);
-  // };
-  // onMount(() => {
-  //   return onMountHandler();
-  // });
+  const onMountHandler = () => {
+    const handleClick = (e) => {
+      if (e.target.className === "toc-link-a") {
+        e.preventDefault();
+        document
+          .getElementById(e.target.attributes.href.nodeValue.slice(1))
+          .scrollIntoView({ behavior: "smooth" });
+      }
+      if (e.target.className === "toc-link") {
+        e.preventDefault();
+
+        document
+          .getElementById(
+            e.target.firstChild.attributes.href.nodeValue.slice(1)
+          )
+          .scrollIntoView({ behavior: "smooth" });
+      }
+    };
+    article.addEventListener("click", handleClick);
+    return () => article.removeEventListener("click", handleClick);
+  };
+  onMount(() => {
+    return onMountHandler();
+  });
 </script>
 
 <style>

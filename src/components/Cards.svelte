@@ -6,7 +6,7 @@
 <section class="mx-4 text-center flex flex-wrap justify-center py-4">
   {#each cards as card}
     <a
-      rel="preload"
+      rel="prefetch"
       href="/learn/{prefix}/{card.slug}"
       class="inline-block w-64 h-64 rounded-card m-4"
       style="background: {card.colour}">

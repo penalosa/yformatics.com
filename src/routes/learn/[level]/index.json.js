@@ -6,9 +6,9 @@ export async function get(req, res, next) {
   res.writeHead(200, {
     "Content-Type": "application/json"
   });
-  const structure = yaml.safeLoad(
-    await promises.readFile(`./src/notes/structure.yaml`, "utf-8")
-  );
+  const structure = yaml
+    .safeLoad(await promises.readFile(`./src/notes/structure.yaml`, "utf-8"))
+    .filter((s) => s.visible);
   res.end(
     JSON.stringify({
       levels: structure,
@@ -21,6 +21,7 @@ export async function get(req, res, next) {
               "utf-8"
             )
           )
+          .filter((s) => s.visible)
           .map(async (s) => ({
             ...s,
             units: yaml.safeLoad(

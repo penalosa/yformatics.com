@@ -6,22 +6,26 @@ export async function get(req, res, next) {
   res.writeHead(200, {
     "Content-Type": "application/json"
   });
-  const structure = yaml.safeLoad(
-    await promises.readFile(
-      `./src/notes/${level}/${subject}/structure.yaml`,
-      "utf-8"
+  const structure = yaml
+    .safeLoad(
+      await promises.readFile(
+        `./src/notes/${level}/${subject}/structure.yaml`,
+        "utf-8"
+      )
     )
-  );
+    .filter((s) => s.visible);
   res.end(
     JSON.stringify({
       levels: structure,
       level: structure.find((l) => l.slug === unit),
-      subjects: yaml.safeLoad(
-        await promises.readFile(
-          `./src/notes/${level}/${subject}/${unit}/structure.yaml`,
-          "utf-8"
+      subjects: yaml
+        .safeLoad(
+          await promises.readFile(
+            `./src/notes/${level}/${subject}/${unit}/structure.yaml`,
+            "utf-8"
+          )
         )
-      )
+        .filter((s) => s.visible)
     })
   );
 }

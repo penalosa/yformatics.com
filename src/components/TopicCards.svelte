@@ -18,7 +18,7 @@
       <div
         class="grid items-center justify-center h-20 grid-cols-1 gap-4 mx-12">
         <a
-          rel="preload"
+          rel="prefetch"
           href="/learn/{prefix}/{card.slug}"
           class="text-xl font-display text-white bg-primary p-2 inline-block
           rounded-full text-center">
