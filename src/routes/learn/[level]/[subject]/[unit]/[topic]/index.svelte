@@ -69,7 +69,7 @@
     outline: 0;
     margin: 8px;
     cursor: pointer;
-    background: #2196f3;
+    background: var(--button-colour);
     color: #fff !important;
   }
   article :global(.table-of-contents li a) {
@@ -77,7 +77,7 @@
     color: #fff !important;
   }
   article :global(.table-of-contents li:hover) {
-    background: #1f87e5;
+    background: var(--button-colour);
   }
   article.prose :global(pre code::after) {
     display: none;
@@ -94,7 +94,8 @@
 <main>
   <article
     class="prose mx-auto prose-md md:prose-lg font-sans mb-20 mt-20 px-3"
-    bind:this={article}>
+    bind:this={article}
+    style="--button-colour: {config.subject.colour || '#2196f3'}">
     <h1 class="text-center font-display font-normal">
       {config.structure.name}
     </h1>

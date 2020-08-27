@@ -1,6 +1,7 @@
 <script>
   export let cards;
   export let prefix;
+  export let colour = "#2196f3";
 </script>
 
 <section class="mx-4 text-center flex flex-wrap justify-center py-4">
@@ -21,6 +22,7 @@
           <a
             rel="prefetch"
             href="/learn/{prefix}/{card.slug}"
+            style="background: {colour}"
             class="text-xl font-display text-white bg-primary p-2 inline-block
             rounded-full text-center">
             Notes

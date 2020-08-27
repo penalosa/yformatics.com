@@ -38,6 +38,7 @@
       prefix="/{$page.params.level}/{$page.params.subject}/" />
 
     <TopicCards
+      colour={config.title.colour}
       cards={config.subjects}
       prefix="{$page.params.level}/{$page.params.subject}/{config.level.slug}" />
 
