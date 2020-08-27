@@ -29,7 +29,7 @@
 {#if $page.params.level && !$page.params.subject}
   <main class="">
     <Tabs
-      tabSuffix={`YFormatics`}
+      tabSuffix={`Yformatics`}
       tabs={config.levels}
       selected={config.level.slug} />
 

@@ -2,7 +2,7 @@
   import { send, receive } from "../send-receive";
   import { goto } from "@sapper/app";
   export let tabs;
-  export let tabSuffix = "YFormatics";
+  export let tabSuffix = "Yformatics";
   $: title = tabs.find((t) => t.slug === selected)
     ? `${tabs.find((t) => t.slug === selected).name} | ${tabSuffix}`
     : tabSuffix;
