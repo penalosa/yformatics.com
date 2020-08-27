@@ -2,6 +2,7 @@
   import { send, receive } from "../send-receive";
   import { goto } from "@sapper/app";
   export let tabs;
+  export let colour = "#2196f3";
   export let tabSuffix = "Yformatics";
   $: title = tabs.find((t) => t.slug === selected)
     ? `${tabs.find((t) => t.slug === selected).name} | ${tabSuffix}`
@@ -16,7 +17,9 @@
 <svelte:head>
   <title>{title}</title>
 </svelte:head>
-<div class="sm:h-16 bg-primary rounded-b-xl shadow-lg">
+<div
+  class="sm:h-16 bg-primary rounded-b-xl shadow-lg"
+  style="background: {colour}">
   <nav class="flex items-center h-full sm:mx-40 sm:flex-row flex-col">
     {#each tabs as tab}
       <a

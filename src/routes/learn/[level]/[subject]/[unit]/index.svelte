@@ -31,6 +31,7 @@
 {#if $page.params.level && $page.params.subject && $page.params.unit && !$page.params.topic}
   <main class="">
     <Tabs
+      colour={config.title.colour}
       tabSuffix={`${config.title.name} | Yformatics`}
       tabs={config.levels}
       selected={config.level.slug}
