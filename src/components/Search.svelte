@@ -81,7 +81,7 @@
 {#if show}
   <div class="fixed z-20 w-full flex justify-center">
     <div
-      class=" bg-gray-400 m-4 mt-40 p-6 max-w-3xl w-full rounded-lg shadow-lg">
+      class=" bg-gray-400 m-4 mt-20 p-6 max-w-3xl w-full rounded-lg shadow-lg">
       <input
         class="bg-gray-200 block w-full border-transparent p-2 rounded-lg
         font-sans text-xl outline-none border-2 focus:border-primary"
