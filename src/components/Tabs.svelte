@@ -1,9 +1,11 @@
 <script>
-  import { handle_promise } from "svelte/internal";
-
   import { send, receive } from "../send-receive";
   import { goto } from "@sapper/app";
   export let tabs;
+  export let tabSuffix = "YFormatics";
+  $: title = tabs.find((t) => t.slug === selected)
+    ? `${tabs.find((t) => t.slug === selected).name} | ${tabSuffix}`
+    : tabSuffix;
   export let selected;
   export let prefix = "/";
   const handle = (href) => {
@@ -11,6 +13,9 @@
   };
 </script>
 
+<svelte:head>
+  <title>{title}</title>
+</svelte:head>
 <div class="sm:h-16 bg-primary rounded-b-xl shadow-lg">
   <nav class="flex items-center h-full sm:mx-40 sm:flex-row flex-col">
     {#each tabs as tab}

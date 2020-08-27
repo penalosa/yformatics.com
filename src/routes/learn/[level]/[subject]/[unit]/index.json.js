@@ -14,8 +14,14 @@ export async function get(req, res, next) {
       )
     )
     .filter((s) => s.visible);
+  const title = yaml
+    .safeLoad(
+      await promises.readFile(`./src/notes/${level}/structure.yaml`, "utf-8")
+    )
+    .find((s) => s.slug === subject);
   res.end(
     JSON.stringify({
+      title,
       levels: structure,
       level: structure.find((l) => l.slug === unit),
       subjects: yaml

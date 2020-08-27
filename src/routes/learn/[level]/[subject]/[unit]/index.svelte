@@ -31,6 +31,7 @@
 {#if $page.params.level && $page.params.subject && $page.params.unit && !$page.params.topic}
   <main class="">
     <Tabs
+      tabSuffix={`${config.title.name} | YFormatics`}
       tabs={config.levels}
       selected={config.level.slug}
       prefix="/{$page.params.level}/{$page.params.subject}/" />

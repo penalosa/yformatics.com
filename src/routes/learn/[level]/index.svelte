@@ -28,7 +28,10 @@
 </svelte:head>
 {#if $page.params.level && !$page.params.subject}
   <main class="">
-    <Tabs tabs={config.levels} selected={config.level.slug} />
+    <Tabs
+      tabSuffix={`YFormatics`}
+      tabs={config.levels}
+      selected={config.level.slug} />
 
     <Cards cards={config.subjects} prefix={config.level.slug} />
 
