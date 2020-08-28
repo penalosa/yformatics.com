@@ -2,9 +2,6 @@
 
 app = "yformatics"
 
-[build]
-  builtin = "node"
-
 
 [[services]]
   internal_port = 3000

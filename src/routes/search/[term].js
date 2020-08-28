@@ -11,6 +11,8 @@ const subjects = levels
       .safeLoad(
         fs.readFileSync(`./src/notes/${l.slug}/structure.yaml`, "utf-8")
       )
+      .filter((u) => u.visible)
+
       .map((s) => ({ ...s, level: l }))
   )
   .flat();
@@ -25,6 +27,7 @@ const units = subjects
       ) || []
     )
       .filter(Boolean)
+      .filter((u) => u.visible)
 
       .map((u) => ({ ...u, subject: s }))
   )
@@ -49,14 +52,21 @@ const topics = units
           "utf-8"
         )
       }))
+
       .filter((t) => t.text)
   )
   .flat();
-
-const fuse = new Fuse([...levels, ...subjects, ...units, ...topics], {
-  keys: ["name", "text"],
-  includeScore: true
-});
+console.log(topics.filter((t) => t.slug === "distributions"));
+const fuse = new Fuse(
+  [...topics, ...levels, ...subjects, ...units].filter((a) => a.visible),
+  {
+    keys: ["name", "text"],
+    includeScore: true,
+    findAllMatches: true,
+    threshold: 0.6,
+    ignoreLocation: true
+  }
+);
 console.log("Search index generated");
 export async function get(req, res, next) {
   const { term } = req.params;

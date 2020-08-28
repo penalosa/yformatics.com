@@ -26,14 +26,12 @@
 <svelte:head>
   <title>{config.level.name} | YFormatics</title>
 </svelte:head>
-{#if $page.params.level && !$page.params.subject}
-  <main class="">
-    <Tabs
-      tabSuffix={`Yformatics`}
-      tabs={config.levels}
-      selected={config.level.slug} />
+<main class="">
+  <Tabs
+    tabSuffix={`Yformatics`}
+    tabs={config.levels}
+    selected={config.level.slug} />
 
-    <Cards cards={config.subjects} prefix={config.level.slug} />
+  <Cards cards={config.subjects} prefix={config.level.slug} />
 
-  </main>
-{/if}
+</main>
