@@ -1,0 +1,23 @@
+- type: topic
+  slug: differential-equations
+  name: Differential Equations
+  image: differential-equations-red.jpg
+  visible: true
+
+- type: topic
+  slug: sequences
+  name: Sequences
+  image: sequences-red.jpg
+  visible: true
+
+- type: topic
+  slug: series
+  name: Series
+  image: series-red.jpg
+  visible: true
+
+- type: topic
+  slug: power-series
+  name: Power Series
+  image: blank.jpg
+  visible: false

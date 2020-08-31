@@ -1,5 +1,41 @@
 - type: topic
-  slug: topic-1
-  name: Topic 1
-  image: blank.jpg
+  slug: integrals
+  name: Integrals
+  image: integrals-red.jpg
   visible: true
+
+- type: topic
+  slug: fundamental-theorem-of-calculus
+  name: Fundamental Theorem of Calculus
+  image: fundamental-theorem-of-calculus-red.jpg
+  visible: true
+
+- type: topic
+  slug: trigonometric-integrals
+  name: Trigonometric Integrals
+  image: trigonometric-integrals-red.jpg
+  visible: true
+
+- type: topic
+  slug: techniques-of-integration
+  name: Techniques of Integration?
+  image: blank.jpg
+  visible: false
+
+- type: topic
+  slug: partial-fractions
+  name: Partial Fractions
+  image: partial-fractions-red.jpg
+  visible: true
+
+- type: topic
+  slug: improper-integrals
+  name: Improper Integrals
+  image: blank.jpg
+  visible: false
+
+- type: topic
+  slug: applications-of-integration
+  name: Applications of Integration
+  image: blank.jpg
+  visible: false

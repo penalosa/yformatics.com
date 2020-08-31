@@ -6,4 +6,9 @@
 - type: unit
   slug: part-2
   name: Part 2
-  visible: false
+  visible: true
+
+- type: unit
+  slug: part-3
+  name: Part 3
+  visible: true

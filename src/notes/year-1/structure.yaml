@@ -14,7 +14,7 @@
 
 - type: subject
   slug: calculus
-  name: Calculus (final)
+  name: Calculus
   colour: "#f44336"
   image: Calculus.svg
   visible: true
@@ -24,11 +24,11 @@
   name: Calculus (1)
   colour: "#f44336"
   image: Calculus.svg
-  visible: true
+  visible: false
 
 - type: subject
   slug: calculus-2-5
   name: Calculus (2)
   colour: "#f44336"
   image: Calculus.svg
-  visible: true
+  visible: false
