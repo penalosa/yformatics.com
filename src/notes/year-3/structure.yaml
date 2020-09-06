@@ -41,8 +41,15 @@
   visible: true
 
 - type: subject
+  slug: testing
+  name: Software Testing
+  colour: "#E91E63"
+  image: network.svg
+  visible: true
+
+- type: subject
   slug: compiling
   name: Compilers
-  colour: "#E91E63"
+  colour: "#26A69A"
   image: developer.svg
   visible: true
