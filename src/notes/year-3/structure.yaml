@@ -52,4 +52,4 @@
   name: Compilers
   colour: "#26A69A"
   image: developer.svg
-  visible: true
+  visible: false

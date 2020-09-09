@@ -1,0 +1,23 @@
+- type: topic
+  slug: test-driven-development
+  name: Test-Driven Development
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: regression-testing
+  name: Regression Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: security-testing
+  name: Security Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: planning-and-monitoring
+  name: Planning & Monitoring
+  image: blank.jpg
+  visible: true

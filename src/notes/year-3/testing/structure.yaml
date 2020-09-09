@@ -2,3 +2,8 @@
   slug: part-1
   name: Part 1
   visible: true
+
+- type: unit
+  slug: part-2
+  name: Part 2
+  visible: true

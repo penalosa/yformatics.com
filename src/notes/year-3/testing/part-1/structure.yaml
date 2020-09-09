@@ -1,5 +1,35 @@
 - type: topic
-  slug: topic-1
-  name: Topic 1
+  slug: why-test
+  name: Why Test?
   image: blank.jpg
-  visible: false
+  visible: true
+
+- type: topic
+  slug: functional-testing
+  name: Functional Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: combinatorial-testing
+  name: Combinatorial Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: structural-testing
+  name: Structural Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: data-flow-models
+  name: Data Flow Models
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: mutation-testing
+  name: Mutation Testing
+  image: blank.jpg
+  visible: true
