@@ -1,5 +1,47 @@
 - type: topic
-  slug: topic-1
-  name: Topic 1
+  slug: basic-sql
+  name: Basic SQL
   image: blank.jpg
-  visible: false
+  visible: true
+
+- type: topic
+  slug: relational-algebra
+  name: Relational Algebra
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: propositional-logic
+  name: Propositional Logic
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: predicate-logic
+  name: Predicate Logic
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: relational-calculus
+  name: Relational Calculus
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: equivalence-of-calculus-and-algebra
+  name: Equivalence of Calculus & Algebra
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: multisets-and-aggregation
+  name: Multisets & Aggregation
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: aggregation-with-grouping
+  name: Aggregation with Grouping
+  image: blank.jpg
+  visible: true

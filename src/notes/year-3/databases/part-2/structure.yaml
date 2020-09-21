@@ -1,0 +1,47 @@
+- type: topic
+  slug: nested-queries
+  name: Nested Queries
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: other-bits-of-sql
+  name: Other Bits of SQL
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: database-constraints
+  name: Database Constraints
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: entailment-of-constraints
+  name: Entailment of Constraints
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: normal-forms
+  name: Normal Forms
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: sql-constraints-and-triggers
+  name: SQL Constraints & Triggers
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: transaction-management
+  name: Transaction Management
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: the-null-value
+  name: The NULL Value
+  image: blank.jpg
+  visible: true
