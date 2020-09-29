@@ -32,7 +32,19 @@ Statute law refers to the rules laid down by Acts of Parliament called legislati
 
 Like many other democratic countries, the UK has what is known as a two-chamber or bicameral legislature known as Parliament.
 
-The first chamber is called the House of Commons which has 659 elected members.
+The first chamber is called the House of Commons which has 659 elected members. The second chamber is called the House of Lords which has 300 members that are appointed with some inheriting their position.
+
+> The British government is made up of members from both the House of Commons and the House of Lords. Members of the House of Lords are never more than a small proportion and the Prime Minister, the Chancellor of the Exchequer, the Foreign Secretary and the Home Secretary are now always members of the House of Commons.
+
+New pieces of legislation are often introduced by the government but can come from any member of parliament. This is done in what is called a 'bill' that is then discussed, amended and approved. Bills pass through the House of Commons before progressing to the House of Lords, although there are many smaller steps involved in this. Once a bill has passed parliamentary approval it is then taken to the Queen to receive royal assent to become law.
+
+> If the House of Lords rejects a bill or modifies it, the bill is returned to the House of Commons for further consideration. The House of Commons has the power to override any changes that may have been made by the House of Lords or even to insist that a bill rejected by the House of Lords should, nevertheless, be passed and proceed to receive the royal assent. The justification for this is that the House of Commons is democratically elected and so represents the will of the people in a way that the members of the House of Lords, not being elected, cannot do.
+
+If the government wants to survey opinion before proposing a bill, it can publish a 'green paper' which explains why a new law could be added and possible approaches. Once the government has decided on its approach to a piece of legislation it can then publish a 'white paper' which forms the basis for debate to create a bill.
+
+> Acts of Parliament constitute what is known as primary legislation. The complexity of modern society makes it impossible for all laws to be examined in detail by parliament. To overcome this difficulty, an Act of Parliament will often make provision for secondary legislation to be introduced. This means that detailed regulations can be introduced without full discussion in parliament. Instead, the proposed regulations are placed in the library of the House of Commons so that members of either house can look at them. If no objections are raised within a fixed time period, the regulations become law.
+
+The UK was also part of the EU until 2020 which had its own parliament. The European Commission could issue directives agreed by all member states that require member states to alter their legislation to form a common standard.
 
 ## Other countries
 
