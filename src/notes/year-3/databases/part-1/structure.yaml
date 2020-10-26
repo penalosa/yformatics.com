@@ -1,13 +1,13 @@
 - type: topic
   slug: basic-sql
   name: Basic SQL
-  image: blank.jpg
+  image: basic-sql.jpg
   visible: true
 
 - type: topic
   slug: relational-algebra
   name: Relational Algebra
-  image: blank.jpg
+  image: relational-algebra.jpg
   visible: true
 
 - type: topic
@@ -37,11 +37,11 @@
 - type: topic
   slug: multisets-and-aggregation
   name: Multisets & Aggregation
-  image: blank.jpg
+  image: multisets-and-aggregation.jpg
   visible: true
 
 - type: topic
   slug: aggregation-with-grouping
   name: Aggregation with Grouping
-  image: blank.jpg
+  image: aggregation-with-grouping.jpg
   visible: true
