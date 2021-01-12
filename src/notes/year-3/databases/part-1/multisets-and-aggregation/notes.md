@@ -16,8 +16,14 @@ Projection latex
 
 Selction latex
 
-## Duplicate elimination 
+## Duplicate elimination
 
 ## SQL on bags
 
 ## Aggregation functions
+
+- `MIN`
+- `MAX`
+- `COUNT`
+- `SUM`
+- `AVG`

@@ -61,3 +61,64 @@ We can now add lock operations to our schedule:
 - $u(A)$ - lock on $A$ is released
 
 Note that a transaction connot aquire a lock on $A$ if another transaction has an excusive lock on $A$. Equally a transaction cannot aquire an exclusive lock on $A$ until all locks on $A$ have been released. If either of these rules are not satisfied then the schedule is invalid.
+
+## Two-phase locking
+
+This is a specific protocol which, if followed, guarentee good properties for schedules with locks. There are two main rules that are applied:
+
+1. Before reading/wring a data item, a transaction must aquire a lock on it.
+2. A transactions cannot request additional locks once it releases any locks.
+
+A transaction undergoes two two processes:
+
+1. The 'growing phase' where locks are acquired.
+2. The 'shrinking phase' where locks are released.
+
+Every completed schedule of committed transactions that follow the 2PL protocol is conflict serializable. The converse is not necessarily true.
+
+## Strict 2PL
+
+Note that a transaction can follow 2PL but could be subject of a dirty read if an abort is triggered in another concurrent transaction. To solve this we need to introduce a more strict version on 2PL:
+
+1. Before reading/wring a data item, a transaction must aquire a lock on it.
+2. All locks held by a transaction are released when the transaction is completed.
+
+This ensures:
+
+- The schedule is always recoverable.
+- All aborted transactions can be rolled back without cascading aborts.
+- The schedule consisting of the committed transactions is conflict serializable.
+
+## Deadlocks
+
+Even when each transaction is following strict 2PL, dirty read errors are still possible if one commits before another aborts. To avoid this we can add in waits, so any transaction requesting a lock must wait until all conflicting locks are released.
+
+In the event that each of the concurrent transactions get stuck in a cyclical set of waits this is called a deadlock.
+
+## Deadlock prevention
+
+To prevent deadlocks, a priority is assigned to each transaction using a timestamp. The older the transaction, the higher the priority. This can be used in one of two ways:
+
+> Suppose $T_i$ requests a lock and $T_j$ holds a conflicting lock.
+
+1. Wait-die: $T_i$ waits if it is higher priority, otherwise it gets aborted.
+2. Wound-die: $T_j$ aborted if $T_i$ has higher priority, otherwise $T_i$ waits.
+
+In both of these schemes, the higher priority transaction is never aborted.
+
+The case where a transaction is repeatedly aborted since it never has enough priority to wait is called 'starvation'. This can be prevented by restarting aborted transactions with their initial timestamp.
+
+## Deadlock detection
+
+This can be done by creating another graph where the nodes are transactions and the edges are from $T_i$ to $T_j$ if $T_i$ waits for $T_j$ to release a conflicting lock. Each cycle represents a deadlock.
+
+To solve this, choose a transaction to kill to clear as many deadlocks as possible. You may need to kill more than one.
+
+## Crash recovery
+
+This starts with 'the log' also known as the 'trail' or 'journal' which records every single action executed in the database. It is also stored as a table in the database.
+
+## Need to look at
+
+- schedule unrecoveravle
+- cascading aborts

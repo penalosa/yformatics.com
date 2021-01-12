@@ -13,19 +13,19 @@
 - type: topic
   slug: database-constraints
   name: Database Constraints
-  image: blank.jpg
+  image: database-constraints.jpg
   visible: true
 
 - type: topic
   slug: entailment-of-constraints
   name: Entailment of Constraints
-  image: blank.jpg
+  image: entailment-of-constraints.jpg
   visible: true
 
 - type: topic
   slug: normal-forms
   name: Normal Forms
-  image: blank.jpg
+  image: normal-forms.jpg
   visible: true
 
 - type: topic
@@ -43,5 +43,5 @@
 - type: topic
   slug: the-null-value
   name: The NULL Value
-  image: blank.jpg
+  image: the-null-value.jpg
   visible: true
