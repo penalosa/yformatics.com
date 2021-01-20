@@ -3,28 +3,28 @@
   name: Tracking
   colour: "#262626"
   image: tracking.svg
-  visible: false
+  visible: true
 
 - type: subject
   slug: profession
   name: Professional Issues
   colour: "#2196F3"
   image: bulb.svg
-  visible: false
+  visible: true
 
 - type: subject
   slug: large-practical
   name: ILP
   colour: "#F44336"
   image: construction.svg
-  visible: false
+  visible: true
 
 - type: subject
   slug: databases
   name: Databases
   colour: "#66BB6A"
   image: storage.svg
-  visible: false
+  visible: true
 
 - type: subject
   slug: hell
