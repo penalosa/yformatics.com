@@ -60,7 +60,6 @@
   }
   article :global(.table-of-contents li) {
     font: 400 20px/1.45 europa, serif;
-    text-transform: capitalize;
     display: inline-block;
     padding: 8px 20px 10px 20px;
     border-radius: 64px;
@@ -71,6 +70,7 @@
     cursor: pointer;
     background: var(--button-colour);
     color: #fff !important;
+    transition: 0.25s;
   }
   article :global(.table-of-contents li a) {
     text-decoration: none;
@@ -78,6 +78,8 @@
   }
   article :global(.table-of-contents li:hover) {
     background: var(--button-colour);
+    filter: brightness(0.8);
+    transition: 0.25s;
   }
   article.prose :global(pre code::after) {
     display: none;

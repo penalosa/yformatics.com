@@ -5,7 +5,6 @@
   html,
   body,
   #sapper {
-    height: 100%;
     background: #fafafa;
   }
   body * {
