@@ -70,7 +70,7 @@
     cursor: pointer;
     background: var(--button-colour);
     color: #fff !important;
-    transition: 0.25s;
+    transition: 0.2s;
   }
   article :global(.table-of-contents li a) {
     text-decoration: none;
@@ -78,8 +78,8 @@
   }
   article :global(.table-of-contents li:hover) {
     background: var(--button-colour);
-    filter: brightness(0.8);
-    transition: 0.25s;
+    filter: drop-shadow(0 0 10px var(--button-colour));
+    transition: 0.2s;
   }
   article.prose :global(pre code::after) {
     display: none;
