@@ -5,6 +5,12 @@
   visible: true
 
 - type: topic
+  slug: hardware
+  name: Hardware
+  image: blank.jpg
+  visible: true
+
+- type: topic
   slug: processes-and-threads
   name: Processes & Threads
   image: blank.jpg

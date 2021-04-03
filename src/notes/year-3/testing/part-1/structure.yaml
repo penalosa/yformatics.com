@@ -5,6 +5,12 @@
   visible: true
 
 - type: topic
+  slug: unit-testing
+  name: Unit Testing
+  image: blank.jpg
+  visible: true
+
+- type: topic
   slug: functional-testing
   name: Functional Testing
   image: blank.jpg
@@ -13,7 +19,13 @@
 - type: topic
   slug: combinatorial-testing
   name: Combinatorial Testing
-  image: blank.jpg
+  image: combinatorial-testing.jpg
+  visible: true
+
+- type: topic
+  slug: finite-models
+  name: Finite Models
+  image: finite-models.jpg
   visible: true
 
 - type: topic
