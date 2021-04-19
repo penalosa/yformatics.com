@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="340" viewBox="0 0 1920 340">
+  <g id="Group_1" data-name="Group 1" transform="translate(0 -370)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="1920" height="340" transform="translate(0 370)" fill="#fafafa"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(204 425)" fill="none" stroke="#ff9800" stroke-width="11">
+      <rect width="1512" height="231" stroke="none"/>
+      <rect x="5.5" y="5.5" width="1501" height="220" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(502 425)" fill="none" stroke="#ff9800" stroke-width="11">
+      <rect width="916" height="231" stroke="none"/>
+      <rect x="5.5" y="5.5" width="905" height="220" fill="none"/>
+    </g>
+    <text id="Header" transform="translate(282 558)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">Header</tspan></text>
+    <text id="Footer" transform="translate(1560 558)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="-67.091" y="0">Footer</tspan></text>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(519 443)" fill="none" stroke="#ff9800" stroke-width="11">
+      <rect width="882" height="195" stroke="none"/>
+      <rect x="5.5" y="5.5" width="871" height="184" fill="none"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(734 443)" fill="none" stroke="#ff9800" stroke-width="11">
+      <rect width="452" height="195" stroke="none"/>
+      <rect x="5.5" y="5.5" width="441" height="184" fill="none"/>
+    </g>
+    <text id="Header-2" data-name="Header" transform="translate(557 558)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">Header</tspan></text>
+    <text id="Footer-2" data-name="Footer" transform="translate(1289 558)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="-67.091" y="0">Footer</tspan></text>
+    <text id="Payload" transform="translate(882 558)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">Payload</tspan></text>
+    <text id="P" transform="translate(536 491)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">p</tspan></text>
+    <text id="Q" transform="translate(225 473)" fill="#4a5568" font-size="46" font-family="Futura-Medium, Futura" font-weight="500"><tspan x="0" y="0">q</tspan></text>
+  </g>
+</svg>
