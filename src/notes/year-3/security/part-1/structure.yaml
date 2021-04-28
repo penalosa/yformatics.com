@@ -23,8 +23,8 @@
   visible: true
 
 - type: topic
-  slug: encryption
-  name: Encryption
+  slug: symmetric-encryption
+  name: Symmetric Encryption
   image: blank.jpg
   visible: true
 
