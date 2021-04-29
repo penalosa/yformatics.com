@@ -1,19 +1,25 @@
 - type: topic
   slug: threat-modeling
   name: Threat Modeling
-  image: blank.jpg
+  image: threat-modeling.jpg
   visible: true
 
 - type: topic
   slug: network-vulnerabilities
   name: Network Vulnerabilities
-  image: blank.jpg
+  image: network-vulnerabilities.jpg
   visible: true
 
 - type: topic
-  slug: network-privacy
-  name: Network Privacy
-  image: blank.jpg
+  slug: network-protocols
+  name: Network Protocols
+  image: network-protocols.jpg
+  visible: true
+
+- type: topic
+  slug: application-layer-protocols
+  name: Application-Layer Protocols
+  image: application-layer-protocols.jpg
   visible: true
 
 - type: topic

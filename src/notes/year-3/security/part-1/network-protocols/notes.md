@@ -38,4 +38,24 @@ TCP is stateful so it can keep track of the connection state in memory. It packa
 
 Both UDP and TCP support concurrent applications on the same server. Ports are 16-bit numbers that identify where data is directed. TCP headers include both the source and destination port. Ports 0 through 1023 are reserved for use by known protocols. Ports 1024 through 46151 are known as user ports which can be used for listening to connections.
 
-<!-- ## TCP data transfer -->
+## TCP connections
+
+TCP connections are established through a three-way handshake. The server generally is a passive listener, waiting for a connection request and the client requests a connection by sending out a SYN packet. The server responds by sending a SYN/ACK packet, acknowledging the connection and the client responds by sending an ACK to the server, thus establishing connection.
+
+During connection initialization using the three way handshake, initial sequence numbers are exchanged. The TCP header includes a 16 bit checksum of the data and parts of the header, including the source and destination. ACKs (or lack thereof) and window size are used by TCP to keep track of:
+
+- Packet loss
+- Network congestion
+- Flow control
+
+## SYN flooding
+
+This is a potential attack that can be launched on the three-way handshake of TCP. Essentially send thousands of SYN requests to the victim without acknowledging any replies. This causes the victum to accumulate more SYN packets than he can handle and run out of space in state table.
+
+There are two problems with this: attribtion and bandwidth. The attacker uses their own IP which could be traced back to them and uses their own bandwidth which is likely smaller than a server’s. However, it can be effective against a small target.
+
+## Spoofing & smurfing
+
+Spoofing is very similar to SYN flooding except it forges the source of the TCP packet. This makes it harder to trace and ACKs are sent to a secondary computer which frees up the attcker's bandwidth. However, ingress filtering is commonly used to drop packets with source addresses outside their origin network fragment.
+
+The smurfing attack exploits ICMP ping requests whereby remote hosts respond to echo packets to say they are online. Some networks called 'smurf amplifiers' respond to pings to broadcast addresses. The idea is to ping a LAN on a broadcast address, then all hosts on the LAN reply to the sender of the ping. If you make a forged packet with the victim’s IP address as the source and send it to a smurf amplifier, it then causes a huge number of replies to the victim. This is a form of reflection attack.
