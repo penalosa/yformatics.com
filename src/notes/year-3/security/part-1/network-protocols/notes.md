@@ -1,10 +1,10 @@
 ## Address translation
 
-The standardised solution that was created is called the Address Resolution Protocol (ARP). It connects the network layer to the data link layer and maps IP addresses to MAC addresses. Its process is based on broadcast messages and local caching. However, it does not support confidentiality, integrity or authentication. Anyone can see which IP belongs to which MAC and anyone can change this information. There is no security built-in at all.
+If servers on the network have IP addresses and devices have MAC addresses then we need a method to match one to the other. The standardised solution that was created is called the Address Resolution Protocol (ARP). It connects the network layer to the data link layer and maps IP addresses to MAC addresses. Its process is based on broadcast messages and local caching. However, it does not support confidentiality, integrity or authentication. Anyone can see which IP belongs to which MAC and anyone can change this information. There is no security built-in at all.
 
 ## ARP cache poisoning
 
-Also know an APR spoofing, ARP cache poisoning is the process of attackers sending incorrect ARP responses to a machine. Since requests are not tracked, machines trust each other and there is no authentication. The cache is updated every time a machine receives a reply even if it did not send a request. This can lead to a mal-actor-in-the-middle (MitM) attack where the attacker can eavesdrop.
+Also know as APR spoofing, ARP cache poisoning is the process of attackers sending incorrect ARP responses to a machine. Since requests are not tracked, machines trust each other and there is no authentication. The cache is updated every time a machine receives a reply even if it did not send a request. This can lead to a mal-actor-in-the-middle (MitM) attack where the attacker can eavesdrop.
 
 ## IP vulnerabilities
 
@@ -40,9 +40,9 @@ Both UDP and TCP support concurrent applications on the same server. Ports are 1
 
 ## TCP connections
 
-TCP connections are established through a three-way handshake. The server generally is a passive listener, waiting for a connection request and the client requests a connection by sending out a SYN packet. The server responds by sending a SYN/ACK packet, acknowledging the connection and the client responds by sending an ACK to the server, thus establishing connection.
+TCP connections are established through a three-way handshake. The server generally is a passive listener, waiting for a connection request and the client requests a connection by sending out a SYN packet. The server responds by sending a SYN/ACK packet, acknowledging the connection and the client responds by sending an ACK to the server, thus establishing the connection.
 
-During connection initialization using the three way handshake, initial sequence numbers are exchanged. The TCP header includes a 16 bit checksum of the data and parts of the header, including the source and destination. ACKs (or lack thereof) and window size are used by TCP to keep track of:
+During connection initialization using the three-way handshake, initial sequence numbers are exchanged. The TCP header includes a 16-bit checksum of the data and parts of the header, including the source and destination. ACKs (or lack thereof) and window size are used by TCP to keep track of:
 
 - Packet loss
 - Network congestion
@@ -50,12 +50,12 @@ During connection initialization using the three way handshake, initial sequence
 
 ## SYN flooding
 
-This is a potential attack that can be launched on the three-way handshake of TCP. Essentially send thousands of SYN requests to the victim without acknowledging any replies. This causes the victum to accumulate more SYN packets than he can handle and run out of space in state table.
+This is a potential attack that can be launched on the three-way handshake of TCP. Essentially send thousands of SYN requests to the victim without acknowledging any replies. This causes the victim to accumulate more SYN packets than he can handle and run out of space in the state table.
 
-There are two problems with this: attribtion and bandwidth. The attacker uses their own IP which could be traced back to them and uses their own bandwidth which is likely smaller than a server’s. However, it can be effective against a small target.
+There are two problems with this: attribution and bandwidth. The attacker uses their own IP which could be traced back to them and uses their own bandwidth which is likely smaller than a server’s. However, it can be effective against a small target.
 
 ## Spoofing & smurfing
 
-Spoofing is very similar to SYN flooding except it forges the source of the TCP packet. This makes it harder to trace and ACKs are sent to a secondary computer which frees up the attcker's bandwidth. However, ingress filtering is commonly used to drop packets with source addresses outside their origin network fragment.
+Spoofing is very similar to SYN flooding except it forges the source of the TCP packet. This makes it harder to trace and ACKs are sent to a secondary computer which frees up the attacker's bandwidth. However, ingress filtering is commonly used to drop packets with source addresses outside their origin network fragment.
 
 The smurfing attack exploits ICMP ping requests whereby remote hosts respond to echo packets to say they are online. Some networks called 'smurf amplifiers' respond to pings to broadcast addresses. The idea is to ping a LAN on a broadcast address, then all hosts on the LAN reply to the sender of the ping. If you make a forged packet with the victim’s IP address as the source and send it to a smurf amplifier, it then causes a huge number of replies to the victim. This is a form of reflection attack.

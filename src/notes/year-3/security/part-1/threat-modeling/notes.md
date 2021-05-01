@@ -31,6 +31,14 @@ Vulnerabilities are weaknesses in a system that could be exploited. Owners seek 
 
 A threat involves loss or damage to a system, its users or operators. The threat model varies based on who the attacker might be as different attackers will be after different assets.
 
+A threat model consists of:
+
+- Who is the adversary and what abilities and access they have.
+- Where they are in relation to the objects we are trying to secure.
+- What the aim of the adversary is, or what are we trying to prevent them from doing at the high level.
+- What particular threats are we trying to prevent that, if successfully taken advantage of, will lead to the adversary achieving their goals.
+- If there is more than one type of adversary and if they can collude.
+
 ## Security properties
 
 When thinking about secure systems, there are three main ways to measure them:
@@ -43,3 +51,20 @@ When thinking about secure systems, there are three main ways to measure them:
 
 - Availability  
   Both the data and the system that provides access to it are there when you need them.
+
+Some other terms to be aware of include:
+
+- Authenticity - 
+  The data is from who it claims to be from or sent to who it is intended for.
+
+## Common defences
+
+There are five methods that can be used to defend your assets:
+
+- Prevent
+- Deter
+- Deflect
+- Detect
+- Recover
+
+You can never prevent all attacks and some attacks connot be prevented. It is also important to examine the weakest links in any system because that is where attackers will target. There is no point investing in strong countermeasures if there is an easy way around them.
