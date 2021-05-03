@@ -25,17 +25,23 @@
 - type: topic
   slug: intro-to-cryptography
   name: Introduction to Cryptography
-  image: blank.jpg
+  image: intro-to-cryptography.jpg
   visible: true
 
 - type: topic
   slug: symmetric-encryption
   name: Symmetric Encryption
-  image: blank.jpg
+  image: symmetric-encryption.jpg
   visible: true
 
 - type: topic
   slug: cryptography-protocols
   name: Cryptography Protocols
-  image: blank.jpg
+  image: cryptography-protocols.jpg
+  visible: true
+
+- type: topic
+  slug: asymmetric-encryption
+  name: Asymmetric Encryption
+  image: asymmetric-encryption.jpg
   visible: true

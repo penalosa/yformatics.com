@@ -4,7 +4,7 @@ If servers on the network have IP addresses and devices have MAC addresses then 
 
 ## ARP cache poisoning
 
-Also know as APR spoofing, ARP cache poisoning is the process of attackers sending incorrect ARP responses to a machine. Since requests are not tracked, machines trust each other and there is no authentication. The cache is updated every time a machine receives a reply even if it did not send a request. This can lead to a mal-actor-in-the-middle (MitM) attack where the attacker can eavesdrop.
+Also known as APR spoofing, ARP cache poisoning is the process of attackers sending incorrect ARP responses to a machine. Since requests are not tracked, machines trust each other and there is no authentication. The cache is updated every time a machine receives a reply even if it did not send a request. This can lead to a mal-actor-in-the-middle (MitM) attack where the attacker can eavesdrop.
 
 ## IP vulnerabilities
 
