@@ -26,11 +26,15 @@ This prime maths is what makes it possible for two parties to share keys without
 
 4. They then share these numbers with each other, making them publicly visible. However, there is no efficient way to discover $a$ or $b$ from these numbers so they are still secret.
 
-5. Alice can now calculate $(g^a)^b \text{ mod } n$ and Bob can calculate $(g^b)^a \text{ mod } n$. By the laws of indices, both of these numbers are equal and is a key they now both possess.
+5. Alice can now calculate $(g^b)^a \text{ mod } n$ and Bob can calculate $(g^a)^b \text{ mod } n$. By the laws of indices, both of these numbers are equal and is a key they now both possess.
 
 ## Weakness in DHP
 
 Despite its clever maths, there is a vulnerability in the Diffie-Hellman protocol that stems from the fact that neither Alice nor Bob actually authenticate each other's identities at any point. This opens the possibility of a man-in-the-middle attack where an attacker poses as the other person to each user before passing the messages on.
+
+## Digital signatures
+
+Digital signatures have the same goal as message authentication codes (MACs), to protect the integrity of messages by ensuring they come from the correct source without modification.
 
 ## Public-key infrastructure
 

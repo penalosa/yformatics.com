@@ -48,4 +48,8 @@ To combat this, cryptographic functions used in new projects should have output 
 
 <!-- ## Hash construction -->
 
-<!-- ## Message authentication codes -->
+## Message authentication codes
+
+Message authentication codes (also acronymed MAC) are needed to improve the integrity of messages which are susceptible to the equivalent of the two-time pad attack. This is a tag that is added to the end of a message which should 'fail' if the message is changed in transit.
+
+There are lots of different types of MACs that are generated in different ways.
