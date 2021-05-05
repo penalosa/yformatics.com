@@ -1,12 +1,18 @@
 - type: topic
-  slug: usable-security
-  name: Usable Security
+  slug: secure-communications
+  name: Secure Communications
   image: blank.jpg
   visible: true
 
 - type: topic
-  slug: authentication-and-anonymity
-  name: Authentication & Anonymity
+  slug: usable-security
+  name: Usable Security
+  image: blank.jpg
+  visible: false
+
+- type: topic
+  slug: anonymity-online
+  name: Anonymity Online
   image: blank.jpg
   visible: true
 
@@ -14,10 +20,10 @@
   slug: memory-safety
   name: Memory Safety
   image: blank.jpg
-  visible: true
+  visible: false
 
 - type: topic
   slug: web-security
   name: Web Security
   image: blank.jpg
-  visible: true
+  visible: false
