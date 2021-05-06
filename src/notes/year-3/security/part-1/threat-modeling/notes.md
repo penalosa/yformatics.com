@@ -54,8 +54,14 @@ When thinking about secure systems, there are three main ways to measure them:
 
 Some other terms to be aware of include:
 
-- Authenticity - 
+- Authenticity  
   The data is from who it claims to be from or sent to who it is intended for.
+
+- Accountability  
+  Actions are traceable to those responsible.
+
+- Privacy  
+  Messages are anonymous and the sender or receiver is not identified.
 
 ## Common defences
 
