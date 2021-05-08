@@ -95,3 +95,27 @@ In Unix, when a child is created, the parent may either wait for the child to fi
   - Initialises new address space with a copy of the entire contents of the address space of the parent
 
 - Places new PCB in the ready queue
+
+## Creation efficiency
+
+---
+
+## Interprocess communication
+
+## Shared memory
+
+## Message passing
+
+- Naming
+
+- Synchronization
+
+- Buffering
+
+## Client-server communication
+
+- Sockets abstraction
+
+- Remote procedure call (RPC)
+
+## Signals

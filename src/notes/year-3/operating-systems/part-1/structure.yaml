@@ -11,37 +11,37 @@
   visible: true
 
 - type: topic
-  slug: processes-and-threads
-  name: Processes & Threads
+  slug: processes
+  name: Processes
+  image: blank.jpg
+  visible: true
+
+- type: topic
+  slug: threads
+  name: Threads
   image: blank.jpg
   visible: true
 
 - type: topic
   slug: scheduling
   name: Scheduling
-  image: blank.jpg
+  image: scheduling.jpg
   visible: true
 
 - type: topic
   slug: memory
   name: Memory
-  image: blank.jpg
+  image: memory.jpg
   visible: true
 
 - type: topic
   slug: paging
   name: Paging
-  image: blank.jpg
+  image: paging.jpg
   visible: true
 
 - type: topic
   slug: virtual-memory
   name: Virtual Memory
-  image: blank.jpg
-  visible: true
-
-- type: topic
-  slug: io-subsystems
-  name: IO Subsystems
-  image: blank.jpg
+  image: virtual-memory.jpg
   visible: true

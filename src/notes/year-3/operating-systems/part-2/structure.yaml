@@ -1,4 +1,10 @@
 - type: topic
+  slug: io-subsystems
+  name: IO Subsystems
+  image: blank.jpg
+  visible: true
+
+- type: topic
   slug: synchronization
   name: Synchronization
   image: blank.jpg
