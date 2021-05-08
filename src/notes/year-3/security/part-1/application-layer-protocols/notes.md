@@ -42,9 +42,23 @@ More generally, DNS is a distributed database that stores resource records:
 
 ## Name resolution
 
+## Glue records
+
+A circular trap where you don't have the IP address of the server you need to ask for the IP address.
+
 ## DNS caching
 
+To reduce the traffic loads of DNS queries, clients can cache the results they recieve. When it goes to make a DNS query it will check its cache and only make a request to the name server if it doesn't already have it. Each cached record has a time-to-live field that means the cache can be updated in case IP addresses have changed.
+
+## Cache privacy
+
+Other users on the system will be able to see the DNS cache.
+
+Incognito browsing also does not clear DNS cache as it is at the operating system level, not in the browser. If someone was to look at a system DNS cache within the time to live they would still be able to see the domains visited.
+
 ## Cache poisoning
+
+If you can give a DNS server a false address and get it to cache then it may serve that false address to others. People looking for the real address will be redirected to the false one. Queries are issued over UDP on port 53. There is a 16-bit request identifier in the payload to match answers with queries. However there is no authentication and a client will not check if the server that responds is the name server that it sent its request to. If the identifier can be guessed then, then an attacker can respond to a server as long as the fraudulent response arrives before the real reponse.
 
 ## Firewalls
 
