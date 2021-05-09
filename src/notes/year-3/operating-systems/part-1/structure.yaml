@@ -13,13 +13,13 @@
 - type: topic
   slug: processes
   name: Processes
-  image: blank.jpg
+  image: processes.jpg
   visible: true
 
 - type: topic
   slug: threads
   name: Threads
-  image: blank.jpg
+  image: threads.jpg
   visible: true
 
 - type: topic
