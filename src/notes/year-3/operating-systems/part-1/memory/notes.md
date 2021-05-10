@@ -85,3 +85,11 @@ For most programs, the amount of memory used dynamically grows and shrinks durin
 ## Fragmentation
 
 Another alternative to the growing problem is fragmentation. This means that when a new process is being allocated, the OS can move all processes tightly together by memory copy or swapping out and in. This is computationally expensive.
+
+There are two types of fragmentation:
+
+- External  
+  The exact amount of memory requested is allocated and the total memory space exists to satisfy the request but is not contiguous.
+
+- Internal  
+  More memory than that requested is allocated.
