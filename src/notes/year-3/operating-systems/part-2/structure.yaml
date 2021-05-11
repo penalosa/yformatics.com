@@ -1,8 +1,20 @@
 - type: topic
+  slug: secondary-storage
+  name: Secondary Storage
+  image: secondary-storage.jpg
+  visible: true
+
+- type: topic
+  slug: file-systems
+  name: File Systems
+  image: file-systems.jpg
+  visible: true
+
+- type: topic
   slug: io-subsystems
   name: IO Subsystems
   image: blank.jpg
-  visible: true
+  visible: false
 
 - type: topic
   slug: synchronization
@@ -19,12 +31,6 @@
 - type: topic
   slug: deadlocks
   name: Deadlocks
-  image: blank.jpg
-  visible: true
-
-- type: topic
-  slug: file-systems
-  name: File Systems
   image: blank.jpg
   visible: true
 
